@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1dc44227397154baf846345c545bcf7a",
+    "packages": [
+        {
+            "name": "iphper/cmd-output",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iphper/cmd-output.git",
+                "reference": "62595e0e6a4dad40946bd944a927f6be837dfe86"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iphper/cmd-output/zipball/62595e0e6a4dad40946bd944a927f6be837dfe86",
+                "reference": "62595e0e6a4dad40946bd944a927f6be837dfe86",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "helper/functions.php"
+                ],
+                "psr-4": {
+                    "CmdOutput\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "iphper",
+                    "email": "iuoping@qq.com"
+                }
+            ],
+            "description": "PHP命令行输出",
+            "support": {
+                "issues": "https://github.com/iphper/cmd-output/issues",
+                "source": "https://github.com/iphper/cmd-output/tree/1.0.0"
+            },
+            "time": "2024-04-20T00:33:46+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

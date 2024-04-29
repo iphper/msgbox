@@ -1,0 +1,22 @@
+{
+    "name": "iphper/msgbox",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MsgBox\\": "src/"
+        },
+        "files": [
+            "helpers/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "iphper",
+            "email": "iguoping@qq.com"
+        }
+    ],
+    "require": {
+        "iphper/cmd-output": "^1.0"
+    }
+}
